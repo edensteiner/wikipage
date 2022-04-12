@@ -3,8 +3,6 @@ body {
     display: flex;
     flex-direction: row;
 }
-
-
 .table {
     border:1px solid black;
     width: 420px;
@@ -118,4 +116,47 @@ body {
     display:flex;
     flex-direction: column;
     align-items: center;
- }
+}
+#head {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+}
+#leftHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    width:76%;
+    margin: 0px 5px 0px 0px;
+}
+#rightHead {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%;
+    font-size: 75%;
+    margin: 0px 5px 0px 0px;
+    
+}
+.leftHeads a{
+    margin-right: 10px ;
+}
+.rightHeads a{
+    margin-right: 10px ;
+}
+.rightHeads p{
+    margin-right: 10px ;
+}
+.rightHeads {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#userAvatar {
+    background-image:  url(https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles.legacy/images/user-avatar.svg?b7f58);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
